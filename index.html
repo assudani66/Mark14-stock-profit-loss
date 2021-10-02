@@ -4,36 +4,39 @@
         <title>mark-14 Stock Profile Calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="Styles.css" rel="stylesheet">
     </head>
     <body>
-        
         <main>
-            <h1>Stock Profile & Loss Calculator</h1>
-            <label for="intial-price">
+          <div class="center-container container">  
+              <h1>Stock Profile & Loss Calculator</h1>
+                <div class="container">
+              <label for="intial-price">
                 Initial Price
-                <input type="number" id="intial-price">
+                <input style="" type="number" id="intial-price">
             </label>
-
+        </div>
+            <br>
+            <div class="container">
             <label for="number-of-stocks">
                 Quantity of Stocks
                 <input type="number" id="number-of-stocks">
             </label>
-
-
+        </div>
+                <br>
             <label for="current-price">
                 Current Price
                 <input type="number" id="current-price">
             </label>
-
-            <button id="calculate-btn">
+                <br>
+            <div class="container">  
+            <button id="calculate-btn" class="link">
                 Tell Me!!
             </button>
-
+            </div>
             <div id="output-box"></div>
+        </div>
         </main>
-        </footer>
         <script src="app.js" type="text/javascript"></script>
     </body>
 </html>

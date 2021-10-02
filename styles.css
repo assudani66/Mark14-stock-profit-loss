@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+:root{
+    --primarycolor : #4D73E3;
+}
+
+hr{
+    padding: 0.5rem 0rem;
+}
+.colored-text{
+    color: var(--primarycolor);
+}
+body{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Links*/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+.link-Primary{
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    color: white;
+
+
+}
+#calculate-btn{
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 1rem;
+
+}
+.link-secondary{
+    color: var(--primarycolor);
+    border-radius: 0.5rem;
+    border: 1px var(--primarycolor) solid;
+}
+.lists-no-bullets{
+    list-style-type: none;
+    padding: 1rem;
+}
+.lists-inline{
+    display: inline-block;
+    padding: 0rem 1rem ;
+}
+.navigation{
+    background-color: var(--primarycolor);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-brand-name{
+    padding: 1rem;
+    font-weight: bold;
+}
+.hero-img{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+    border-radius: 1rem;
+}
+.normal-section h2{
+    text-align: center;
+}
+.off-white-section {
+    background-color:lightgrey;
+    padding: 1rem;
+}
+.footer{
+    background-color: var(--primarycolor);
+    color:white;
+    text-align:center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+}
